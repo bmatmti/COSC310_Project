@@ -4,16 +4,20 @@ There is now a basic GUI that has a menu system as well as chat screen.
 The chat bot also provides, in the console, data of messages sent.
 The bot also translates to french for french-speaking Canadians. 
 As well as provides a map for the local area. 
+To be able to see all addresses, the geocoding API needs to be implemented. 
 
 ## External APIs
-Google Maps API: https://www.luv2code.com/2015/05/15/how-to-add-google-maps-to-java-swing-gui/
+Google Statics Maps API: https://www.luv2code.com/2015/05/15/how-to-add-google-maps-to-java-swing-gui/
+This lets us embed a Google Maps image on our chat bot without requiring JavaScript or any dynamic page loading
 
 Google Translate API: https://github.com/goxr3plus/java-google-translator.git
+This uses Google's neural machine translation technology to instantly translate texts into more than one hundred languages.
 
 ## GUI
 The gui is fairly well formated and SHOULD work regardless of the display size.
 The gui is full screened and does not have an option for windowed.
-the gui does not allow the user to send messages with symbols(+, -, $, &...).
+The gui does not allow the user to send messages with symbols(+, -, $, &...).
+Only allows for 30 characters max.
 
 ## Data
 This data uses the 3 toolkits we implemented.
