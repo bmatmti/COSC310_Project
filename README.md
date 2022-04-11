@@ -26,7 +26,13 @@ The second toolkit adds tags and probabilities to the toolkits.
 The third toolkit uses those tags and provides the LEMMA of each word.
 
 ## Example
-If the user types "Where is my food?". The AI will provide a response in the GUI. The AI will also print out the following in the console:
+If the user types "Where is my food?". The AI will provide a response in the GUI. 
+![](Example1.jpg)
+![](Example2.jpg)
+![](Example3.jpg)
+![](Example4.jpg)
+
+The AI will also print out the following in the console:
 
 Token	:	Tag	:	Probability
 ---------------------------------------------
